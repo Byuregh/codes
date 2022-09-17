@@ -1,0 +1,28 @@
+.anim {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background-color: rgb(26, 181, 78);
+    animation-name: example;
+    animation-duration: 7s;
+}
+
+@keyframes example {
+0%   { background-color: rgb(26, 181, 78); 
+    left: 0px; top: 0px; border-radius: 0%;}
+
+20%  { background-color: rgb(26, 181, 78); 
+    left: 1300px; top: 0px; border-radius: 0%;}
+
+40%  { background-color: rgb(26, 181, 78); 
+    left: 1300px; top: 680px; border-radius: 0%;}
+
+60%  { background-color: rgb(26, 181, 78); 
+    left: 0px; top: 680px; border-radius: 0%;}
+
+80% { background-color: rgb(26, 181, 78); 
+    left: 0px; top: 0px; border-radius: 0%;}
+
+100% { background-color: rgb(85, 0, 255); 
+    left: 650px; top: 340px; border-radius: 70%;}
+}
